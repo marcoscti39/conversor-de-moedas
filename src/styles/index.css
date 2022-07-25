@@ -1,0 +1,45 @@
+#root{
+    display: grid;
+    place-items: center;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.show-result{
+    font-size: 2rem;
+
+    display: inline-block;
+}
+.select-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+select{
+    width: 110px;
+    font-size: 1.3rem;
+
+}
+
+.input-number{
+    font-size: 1.3rem;
+    width: 100px;
+}
+
+.result-wrapper{
+    display: flex;
+    margin-top: 1.2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.currency-comparison{
+    display: inline-block;
+    text-align: center;
+    margin-top: .5rem;
+}
